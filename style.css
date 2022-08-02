@@ -167,8 +167,8 @@ img {
 /* Preloader */
 #preloader {
   background: #61ba6d;
-  background: -webkit-linear-gradient(to right, #61ba6d, #83c331);
-  background: linear-gradient(to right, #61ba6d, #83c331);
+  background: -webkit-linear-gradient(to right, #0089E9, #005D9E);
+  background: linear-gradient(to right, #0089E9, #005D9E);
   width: 100%;
   height: 100%;
   position: fixed;
@@ -255,8 +255,8 @@ img {
 /* ScrollUp */
 #scrollUp {
   background: #61ba6d;
-  background: -webkit-linear-gradient(to right, #61ba6d, #83c331);
-  background: linear-gradient(to right, #61ba6d, #83c331);
+  background: -webkit-linear-gradient(to right, #FFF700, #005D9E);
+  background: linear-gradient(to right, #FFF700, #005D9E);
   border-radius: 0;
   bottom: 60px;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.3);
@@ -290,8 +290,8 @@ img {
   -webkit-transition: all 500ms;
   transition: all 500ms;
   background: #61ba6d;
-  background-image: -webkit-linear-gradient(left, #61ba6d 0%, #83c331 51%, #61ba6d 100%);
-  background-image: linear-gradient(to right, #61ba6d 0%, #83c331 51%, #61ba6d 100%);
+  background-image: -webkit-linear-gradient(left, #61ba6d 0%, #83c331 51%, #005D9E 100%);
+  background-image: linear-gradient(to right, #61ba6d 0%, #83c331 51%, #005D9E 100%);
   font-weight: 600; }
   .academy-btn.btn-sm {
     min-width: 110px;
@@ -303,8 +303,8 @@ img {
     font-weight: 600;
     color: #ffffff;
     background: #61ba6d;
-    background: -webkit-linear-gradient(to right, #61ba6d, #83c331);
-    background: linear-gradient(to right, #61ba6d, #83c331); }
+    background: -webkit-linear-gradient(to right, #61ba6d, #005D9E);
+    background: linear-gradient(to right, #61ba6d, #005D9E); }
   .academy-btn.btn-2 {
     background: #141414; }
     .academy-btn.btn-2:hover, .academy-btn.btn-2:focus {
@@ -384,9 +384,9 @@ img {
       .header-area .academy-main-menu .calling-info .call-center {
         position: relative;
         z-index: 1;
-        background: #61ba6d;
-        background: -webkit-linear-gradient(to right, #61ba6d, #83c331);
-        background: linear-gradient(to right, #61ba6d, #83c331);
+        background: #005D9E;
+        background: -webkit-linear-gradient(to right, #FFF700, #005D9E);
+        background: linear-gradient(to right, #FFF700, #005D9E);
         padding: 0 40px;
         line-height: 85px;
         height: 85px; }
@@ -421,7 +421,7 @@ img {
           top: 3px;
           left: -28px;
           z-index: 1;
-          background-color: #61ba6d;
+          background-color:#f5f7fa;
           content: '';
           -webkit-transform: rotate(30deg);
           transform: rotate(30deg); }
@@ -444,7 +444,7 @@ img {
       top: 0;
       right: 0;
       z-index: 1;
-      background-color: #83c331;
+      background-color: #005D9E;
       content: ''; }
 
 .hero-slides {
@@ -1215,9 +1215,9 @@ img {
     border-bottom: none;
     margin-bottom: 50px; }
     .academy-tabs-content .nav-tabs .nav-link {
-      background: #61ba6d;
-      background: -webkit-linear-gradient(to right, #61ba6d, #83c331);
-      background: linear-gradient(to right, #61ba6d, #83c331);
+      background: #005D9E;
+      background: -webkit-linear-gradient(to right, #0089E9, #005D9E);
+      background: linear-gradient(to right, #0089E9, #005D9E);
       padding: 0 20px;
       height: 50px;
       line-height: 50px;
