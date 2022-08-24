@@ -258,6 +258,7 @@ img {
   background: -webkit-linear-gradient(to right, #FFF700, #005D9E);
   background: linear-gradient(to right, #FFF700, #005D9E);
   border-radius: 0;
+  border-radius: 40px;
   bottom: 60px;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.3);
   color: #ffffff;
@@ -349,6 +350,7 @@ img {
     .header-area .academy-main-menu .classy-navbar {
       background-color: #f5f7fa;
       height: 85px;
+      border-radius: 30px;
       padding: 0; }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
         .header-area .academy-main-menu .classy-navbar {
@@ -385,6 +387,7 @@ img {
         position: relative;
         z-index: 1;
         background: #005D9E;
+        border-radius: 27px;
         background: -webkit-linear-gradient(to right, #FFF700, #005D9E);
         background: linear-gradient(to right, #FFF700, #005D9E);
         padding: 0 40px;
@@ -495,8 +498,10 @@ img {
     top: 50%;
     margin-top: -28px;
     left: 5%;
+    border-radius: 30px;
     position: absolute;
     z-index: 10;
+
     text-align: center;
     font-size: 22px;
     font-weight: 700;
