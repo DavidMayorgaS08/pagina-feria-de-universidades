@@ -494,7 +494,7 @@ img {
     width: 56px;
     height: 56px;
     line-height: 56px;
-    color: #009EFF;
+    color: linear-gradient(to right, #61ba6d, #83c331);color: linear-gradient(to right, #61ba6d, #83c331);
     top: 50%;
     margin-top: -28px;
     left: 5%;
