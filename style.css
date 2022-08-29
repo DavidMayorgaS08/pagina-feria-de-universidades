@@ -468,14 +468,14 @@ img {
       .hero-slides .single-hero-slide {
         height: 600px; } }
     .hero-slides .single-hero-slide h4 {
-      color: #ffffff;
+      color: #009EFF;
       margin-bottom: 10px; }
       @media only screen and (max-width: 767px) {
         .hero-slides .single-hero-slide h4 {
           font-size: 18px; } }
     .hero-slides .single-hero-slide h2 {
       font-size: 60px;
-      color: #ffffff;
+      color: #009EFF;
       margin-bottom: 30px; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
         .hero-slides .single-hero-slide h2 {
@@ -494,7 +494,7 @@ img {
     width: 56px;
     height: 56px;
     line-height: 56px;
-    color: #ffffff;
+    color: #009EFF;
     top: 50%;
     margin-top: -28px;
     left: 5%;
