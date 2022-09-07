@@ -1,156 +1,275 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+fieldset,
+img {
+    border: 0
+}
+
+ol,
+ul,
+li {
+    list-style: none
+}
 
 * {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    padding: 0
 }
 
 body {
+    background: linear-gradient(220.55deg, #dad623 0%, #7B6AE0 100%);
     width: 100%;
     min-height: 100vh;
-    background-image: url(img/bg-img/bg.jpg);
-    background-position: center;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.container {
-    width: 400px;
-    min-height: 400px;
-    background: #FFF;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0,0,0,.3);
-    padding: 40px 30px;
+:focus {
+    outline: none
 }
 
-.container .login-text {
-    color: #111;
-    font-weight: 500;
-    font-size: 1.1rem;
+body,
+input,
+textarea,
+select {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #4c4c4c;
+}
+
+p {
+    font-size: 12px;
+    width: 150px;
+    display: inline-block;
+    margin-left: 18px;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 300;
+    color: #4c4c4c;
     text-align: center;
-    margin-bottom: 20px;
-    display: block;
-    text-transform: capitalize;
+    padding-top: 10px;
+    margin-bottom: 10px;
 }
 
-.container .login-social {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
-    margin-bottom: 25px;
+html {
+    background-color: #ffffff;
 }
 
-.container .login-social a {
-    padding: 12px;
-    margin: 10px;
-    border-radius: 3px;
-    box-shadow: 0 0 5px rgba(0,0,0,.3);
-    text-decoration: none;
-    font-size: 1rem;
-    text-align: center;
-    color: #FFF;
-    transition: .3s;
+.testbox {
+    margin: 20px auto;
+    width: 343px;
+    height: 464px;
+    -webkit-border-radius: 8px/7px;
+    -moz-border-radius: 8px/7px;
+    border-radius: 8px/7px;
+    background-color: #ebebeb;
+    -webkit-box-shadow: 1px 2px 5px rgba(0, 0, 0, .31);
+    -moz-box-shadow: 1px 2px 5px rgba(0, 0, 0, .31);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, .31);
+    border: solid 1px #cbc9c9;
 }
 
-.container .login-social a i {
-    margin-right: 5px;
+input[type=radio] {
+    visibility: hidden;
 }
 
-.container .login-social a.facebook {
-    background: #4267B2;
+form {
+    margin: 0 30px;
 }
 
-.container .login-social a.twitter {
-    background: #1DA1F2;
-}
-
-.container .login-social a.google-plus {
-    background: #db4a39;
-}
-
-.container .login-social a.linkedin {
-    background: #0e76a8;
-}
-
-.container .login-social a.facebook:hover {
-    background: #3d5fa3;
-}
-
-.container .login-social a.twitter:hover {
-    background: #1991db;
-}
-
-.container .login-social a.google-plus:hover {
-    background: #ca4334;
-}
-
-.container .login-social a.linkedin:hover {
-    background: #0b5c81;
-}
-
-.container .login-email .input-group {
-    width: 100%;
-    height: 50px;
-    margin-bottom: 25px;
-}
-
-.container .login-email .input-group input {
-    width: 100%;
-    height: 100%;
-    border: 2px solid #e7e7e7;
-    padding: 15px 20px;
-    font-size: 1rem;
-    border-radius: 30px;
-    background: transparent;
-    outline: none;
-    transition: .3s;
-}
-
-.container .login-email .input-group input:focus, .container .login-email .input-group input:valid {
-    border-color: #a29bfe;
-}
-
-.container .login-email .input-group .btn {
-    display: block;
-    width: 100%;
-    padding: 15px 20px;
-    text-align: center;
-    border: none;
-    background: #a29bfe;
-    outline: none;
-    border-radius: 30px;
-    font-size: 1.2rem;
-    color: #FFF;
+label.radio {
     cursor: pointer;
-    transition: .3s;
+    text-indent: 35px;
+    overflow: visible;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 15px;
 }
 
-.container .login-email .input-group .btn:hover {
-    transform: translateY(-5px);
-    background: #6c5ce7;
+label.radio:before {
+    background: #3a57af;
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
 }
 
-.login-register-text {
-    color: #111;
-    font-weight: 600;
+label.radio:after {
+    opacity: 0;
+    content: '';
+    position: absolute;
+    width: 0.5em;
+    height: 0.25em;
+    background: transparent;
+    top: 7.5px;
+    left: 4.5px;
+    border: 3px solid #ffffff;
+    border-top: none;
+    border-right: none;
+
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
 }
 
-.login-register-text a {
+input[type=radio]:checked+label:after {
+    opacity: 1;
+}
+
+hr {
+    color: #a9a9a9;
+    opacity: 0.3;
+}
+
+input[type=text],
+input[type=password] {
+    width: 200px;
+    height: 39px;
+    -webkit-border-radius: 0px 4px 4px 0px/5px 5px 4px 4px;
+    -moz-border-radius: 0px 4px 4px 0px/0px 0px 4px 4px;
+    border-radius: 0px 4px 4px 0px/5px 5px 4px 4px;
+    background-color: #fff;
+    -webkit-box-shadow: 1px 2px 5px rgba(0, 0, 0, .09);
+    -moz-box-shadow: 1px 2px 5px rgba(0, 0, 0, .09);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, .09);
+    border: solid 1px #cbc9c9;
+    margin-left: -5px;
+    margin-top: 13px;
+    padding-left: 10px;
+}
+
+input[type=password] {
+    margin-bottom: 25px;
+}
+
+#icon {
+    display: inline-block;
+    width: 30px;
+    background-color: #3a57af;
+    padding: 8px 0px 8px 15px;
+    margin-left: 15px;
+    -webkit-border-radius: 4px 0px 0px 4px;
+    -moz-border-radius: 4px 0px 0px 4px;
+    border-radius: 4px 0px 0px 4px;
+    color: white;
+    -webkit-box-shadow: 1px 2px 5px rgba(0, 0, 0, .09);
+    -moz-box-shadow: 1px 2px 5px rgba(0, 0, 0, .09);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, .09);
+    border: solid 0px #cbc9c9;
+}
+
+
+
+/* From uiverse.io by @adamgiebl */
+input[type=submit] {
+    font-family: inherit;
+    font-size: 15px;
+    background:#3a57af;
+    color: white;
+    position: relative;
+    padding: 0.7em 1em;
+    padding-left: 0.9em;
+    display: flex;
+    align-items: center;
+    left: 105px;
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.2s;
+    cursor: pointer;
     text-decoration: none;
-    color: #6c5ce7;
+   }
+
+
+   .bconfir span {
+    display: block;
+    margin-left: 0.3em;
+    transition: all 0.3s ease-in-out;
+   }
+   
+   .bconfir svg {
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out;
+   }
+   
+   .bconfir:hover .svg-wrapper {
+    animation: fly-1 0.6s ease-in-out infinite alternate;
+   }
+   
+   .bconfir:hover svg {
+    transform: translateX(1.2em) rotate(45deg) scale(1.1);
+   }
+   
+   .bconfir:hover span {
+    transform: translateX(5em);
+   }
+   
+   .bconfir:active {
+    transform: scale(0.95);
+   }
+   
+   @keyframes fly-1 {
+    from {
+     transform: translateY(0.1em);
+    }
+   
+    to {
+     transform: translateY(-0.1em);
+    }
+   }
+
+/* From uiverse.io by @xueyuantan */
+.backb {
+    position: relative;
+    display: flex;
+    left: 120px;
+    top: 20px;
+    height: 3em;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: #eeeeee4b;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    border: none;
+    background: #fff;
 }
 
-@media (max-width: 430px) {
-    .container {
-        width: 300px;
-    }
-    .container .login-social {
-        display: block;
-    }
-    .container .login-social a {
-        display: block;
-    }
+.backb span{
+    text-decoration: none;
+    color: #000;
+}
+
+.backb>svg {
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    transition: all 0.4s ease-in;
+}
+
+.backb:hover>svg {
+    font-size: 1.2em;
+    transform: translateX(-5px);
+}
+
+.backb:hover {
+    box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
+    transform: translateY(-2px);
+}
+
+p{
+    right: 150px;
+    position: relative;
+    
+ 
 }
